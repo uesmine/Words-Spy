@@ -90,7 +90,7 @@ public class WordsGrid : MonoBehaviour
 
                     if(normalLetterData.image == null || selectedLetterData.image == null)
                     {
-                        //Debug.LogError();
+                        Debug.LogError("All fields in your array should have some letters . Press Fill up with random button in your board data to add random letter.Letter" + squareLetter);
 
                         #if UNITY_EDITOR
 
