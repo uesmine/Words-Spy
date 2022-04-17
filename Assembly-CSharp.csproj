@@ -36,13 +36,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\scripts\ScriptableObject\gameData.cs" />
+     <Compile Include="Assets\scripts\GameEvents.cs" />
+     <Compile Include="Assets\scripts\GridSquare.cs" />
+     <Compile Include="Assets\scripts\ScriptableObject\alphabetData.cs" />
      <Compile Include="Assets\scripts\gameManagement.cs" />
      <Compile Include="Assets\scripts\ScriptableObject\BoardData.cs" />
-     <Compile Include="Assets\scripts\ScriptableObject\alphabetData.cs" />
-     <Compile Include="Assets\scripts\ScriptableObject\gameData.cs" />
      <Compile Include="Assets\scripts\WordsGrid.cs" />
-     <Compile Include="Assets\scripts\GridSquare.cs" />
-     <Compile Include="Assets\scripts\GameEvents.cs" />
+     <Compile Include="Assets\scripts\Back.cs" />
      <None Include="Assets\Graphics\License.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

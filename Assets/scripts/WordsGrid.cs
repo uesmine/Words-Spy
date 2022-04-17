@@ -72,9 +72,6 @@ public class WordsGrid : MonoBehaviour
         return startPosition;
     }
 
-
-
-
     private void SpawnGridSquares()
     {
         if (currentGameData != null)

@@ -9,4 +9,8 @@ public class gameManagement : MonoBehaviour
         {
             SceneManager.LoadScene("gamePlay");
         }
+    public void exit ()
+    {
+        UnityEditor.EditorApplication.isPlaying = false;
+    }
 }
